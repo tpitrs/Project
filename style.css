@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+body {
+    font-family: 'Sarabun', sans-serif;
+    margin: 0;
+    font-size: 100%;
+    background: #F6F1EE;
+}
+
+.header {
+    width: 40%;
+    margin: 70px auto 0px;
+    color: #4F4A45;
+    background-color: #ED7D31;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid #ED7D31;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form, .content {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #ED7D31;
+    background-color: #F6F1EE;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.container {
+    width: 900px;
+    max-width: 90vm;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+svg {
+    width: 30px;
+}
+
+.input-group {
+    margin: 20px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #6C5F5B;
+}
+
+.ListProduct .item img {
+    width: 80%;
+}
+
+.ListProduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.ListProduct .item {
+    background-color: #ED7D31;
+    border: 5px solid #F6F1EE;
+    border-radius: 20px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.ListProduct .item h2 {
+    font-weight: 500;
+    font-size: large;
+}
+
+.ListProduct .item .detail {
+    letter-spacing: 0px;
+    font-size: medium ;
+    margin-top: 6px;
+}
+.ListProduct .item button {
+    color: #F6F1EE;
+    font-size: 25px;
+    align-items: center;
+    background-color: #4F4A45;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: #F6F1EE;
+    background: #4F4A45;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #ED7D31;
+    color: #ED7D31;
+    background: #F6F1EE;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #ED7D31;
+    background: #F6F1EE;
+    border: 1px solid #6C5F5B;
+    margin-bottom: 20px;
+}
